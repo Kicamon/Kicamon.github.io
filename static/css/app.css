@@ -1,0 +1,55 @@
+#app>.page1 {
+    padding: 4vmax 1vmax;
+    width: 100%;
+    height: 100%;
+    color: black;
+    box-sizing: border-box;
+}
+
+.newh {
+    margin: 0;
+}
+
+#app>.page1>.h2 {
+    font-size: 2.25vmax;
+    font-weight: 600;
+}
+
+#app>.page1>.h1 {
+    font-size: 6vmax;
+    font-weight: 800;
+}
+
+#app>.page1>.h3 {
+    font-size: 1.75vmax;
+    font-weight: 800;
+}
+
+#app>.page1>.h4 {
+    margin-top: 1vmax;
+    font-size: 1.5vmax;
+}
+
+#app>.page1>.text1 {
+    font-size: 1vmax;
+    font-weight: 600;
+}
+
+#app>.page1>.text2 {
+    max-width: 25vmax;
+}
+
+
+#app>.page1>.text3 {
+    font-size: 1vmax;
+    font-weight: 600;
+}
+
+#app>.page1>.media {
+    padding: 0;
+}
+
+#app>.page1>.media>.icon {
+    width: 2vmax;
+    margin-right: 1vmax;
+}
