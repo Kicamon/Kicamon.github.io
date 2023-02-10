@@ -2,34 +2,34 @@
     position: absolute;
     display: flex;
     width: 42vmax;
-    height: 30vmax;
-    transform: translate(120%, -115%);
+    height: 25vmax;
+    transform: translate(120%, -145%);
     box-sizing: border-box;
+    display: flex;
+    justify-content: center;
 }
 
 .swiper {
     width: 42vmax;
-    height: 25vmax;
+    height: 20vmax;
     position: absolute;
     transform: translateY(20%);
     box-sizing: border-box;
-    box-shadow: 0 3px 6px rgba(0, 0, 0, 16), 0 3px 6px rgba(0, 0, 0, 23);
     overflow: hidden;
+    display: flex;
+    align-items: center;
 }
 
-.swiper::before {
-    content: "近期活动";
+.swiper-constainer>.title {
     color: black;
     font-size: 3vmax;
     font-weight: 800;
-    position: absolute;
-    transform: translate(120%, -120%);
 }
 
 .swiper>.swiper-img {
     opacity: 0;
     background-position: center center;
-    background-size: cover;
+    width: 100%;
     position: absolute;
     transition: 0.4 ease;
 }
