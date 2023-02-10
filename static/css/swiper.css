@@ -1,0 +1,39 @@
+.swiper-constainer {
+    position: absolute;
+    display: flex;
+    width: 42vmax;
+    height: 30vmax;
+    transform: translate(120%, -115%);
+    box-sizing: border-box;
+}
+
+.swiper {
+    width: 42vmax;
+    height: 25vmax;
+    position: absolute;
+    transform: translateY(20%);
+    box-sizing: border-box;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 16), 0 3px 6px rgba(0, 0, 0, 23);
+    overflow: hidden;
+}
+
+.swiper::before {
+    content: "近期活动";
+    color: black;
+    font-size: 3vmax;
+    font-weight: 800;
+    position: absolute;
+    transform: translate(120%, -120%);
+}
+
+.swiper>.swiper-img {
+    opacity: 0;
+    background-position: center center;
+    background-size: cover;
+    position: absolute;
+    transition: 0.4 ease;
+}
+
+.swiper .active {
+    opacity: 1;
+}

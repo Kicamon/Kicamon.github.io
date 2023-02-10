@@ -8,7 +8,7 @@
     justify-self: space-around;
     align-items: center;
     position: relative;
-    --nav-font-color: aqua;
+    --nav-font-color: rgba(129, 216, 209);
 }
 
 .nav>.nav-logo {
