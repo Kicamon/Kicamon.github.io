@@ -58,7 +58,7 @@
 
 .card>.heart>.ani {
   width: 20%;
-  height: 50%;
+  height: 20%;
   margin-top: 10%;
   background-color: red;
   transform: rotate(45deg);
