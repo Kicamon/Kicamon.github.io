@@ -1,7 +1,7 @@
 let $nav = $(".nav");
 
 let Nav = function () {
-    $nav.append(`<div class="title">
+  $nav.append(`<div class="title">
       我们的爱
     </div>
     <div class="title">
