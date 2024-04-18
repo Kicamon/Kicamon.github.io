@@ -1,6 +1,6 @@
 .page {
   width: 100%;
-  height: 45%;
+  height: 45vh;
   margin-top: 10%;
   background-color: #ffffff;
   background-image: linear-gradient(rgba(0, 0, 0, 0.1) 1px, transparent 1px),
@@ -49,7 +49,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 15%;
+  width: 15vmax;
   height: 100px;
   background-color: #f6f6f7;
   border-radius: 20px;

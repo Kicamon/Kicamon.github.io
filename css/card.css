@@ -1,20 +1,21 @@
 .card {
-  height: 25%;
-  width: 40%;
+  height: 25vmin;
+  width: 40vmax;
   margin: 3% auto;
   border-radius: 30px;
   display: flex;
-  justify-content: space-between;
+  /* justify-content: space-between; */
+  justify-content: center;
+  align-items: center;
   padding-top: 1%;
   padding-left: 5%;
   padding-right: 5%;
-  border: 1px,solid,rgba(255, 255, 255, 0.6);
-  box-shadow: 4px 4px 3px rgba(0, 0, 0, 0.1);
+  border: 1px, solid, rgba(255, 255, 255, 0.6);
 }
 
 .card>* {
-  height: 90%;
-  width: 30%;
+  height: 22.5vmin;
+  width: 12vmax;
 }
 
 .card>.head-img {
@@ -24,8 +25,8 @@
 .card>.head-img>.img-l,
 .card>.head-img>.img-y {
   margin: 0 auto;
-  width: 90%;
-  height: 80%;
+  width: 16.4vmin;
+  height: 16.4vmin;
   border-radius: 50%;
 }
 
@@ -49,19 +50,17 @@
 }
 
 .card>.heart {
-  /* background-color: black; */
-  width: 180px;
-  height: 180px;
   display: flex;
+  width: 20vmin;
+  height: 20vmin;
   justify-content: center;
   align-items: center;
   animation: HeaBeat 2s linear infinite;
 }
 
 .card>.heart>.ani {
-  width: 20%;
-  height: 20%;
-  margin-top: 10%;
+  width: 4vmin;
+  height: 4vmin;
   background-color: red;
   transform: rotate(45deg);
 }
