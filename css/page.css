@@ -1,7 +1,8 @@
 .page {
   width: 100%;
-  height: 45vh;
-  margin-top: 10%;
+  flex: 1;
+  /* height: 42.5vh; */
+  margin-top: 8%;
   background-color: #ffffff;
   background-image: linear-gradient(rgba(0, 0, 0, 0.1) 1px, transparent 1px),
     linear-gradient(90deg, rgba(0, 0, 0, 0.1) 1px, transparent 1px);

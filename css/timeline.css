@@ -10,6 +10,7 @@
   transition: 0.3s ease 0s;
   background-attachment: fixed;
   background-size: cover;
+  background-position: center;
 }
 
 .shell:before {
@@ -34,6 +35,20 @@
   font-size: 46px;
   font-weight: normal;
   margin: 0;
+}
+
+.bottom {
+  width: 100%;
+  text-align: center;
+  margin-top: 150px;
+  position: relative;
+}
+
+.endtitle {
+  color: rgba(255, 255, 255, 0.5);
+  letter-spacing: 5px;
+  margin: 10px 0 0 0;
+  font-weight: normal;
 }
 
 .timeline {
