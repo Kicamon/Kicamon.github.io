@@ -86,7 +86,14 @@ body {
   width: 50vmin;
   height: 30vmax;
   border-radius: 20px;
-  background-color: rgba(192, 192, 192, 0.5);
-  /* backdrop-filter: blur(5px); */
-  box-shadow: 4px 4px 3px rgba(0, 0, 0, 0.1);
+  /* background-color: rgba(192, 192, 192, 0.5); */
+  backdrop-filter: blur(0px);
+  /* box-shadow: 4px 4px 3px rgba(0, 0, 0, 0.1); */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  font-weight: bolder;
+  color: #333333;
 }
