@@ -4,7 +4,6 @@
   margin: 3% auto;
   border-radius: 30px;
   display: flex;
-  /* justify-content: space-between; */
   justify-content: center;
   align-items: center;
   padding-top: 1%;
@@ -104,5 +103,11 @@
 
   100% {
     transform: scale(1);
+  }
+}
+
+@media(max-width: 768px) {
+  .card {
+    height: 35vmin;
   }
 }

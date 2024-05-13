@@ -63,3 +63,25 @@
   margin-left: 1%;
   margin-right: 1%;
 }
+
+@media(max-width: 768px) {
+  .time {
+    padding-top: 10vmin;
+  }
+
+  .page>.time>#time {
+    padding-top: 10vmin;
+  }
+
+  .page>.jump {
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 10vmin;
+    padding-bottom: 10vmin;
+  }
+
+  .page>.jump>a {
+    width: 60vmin;
+  }
+}
