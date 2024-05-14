@@ -36,7 +36,6 @@
   justify-content: center;
   align-items: center;
   font-size: 3em;
-  /* font-weight: bold; */
 }
 
 .page>.jump {
@@ -71,6 +70,7 @@
 
   .page>.time>#time {
     padding-top: 10vmin;
+    font-size: 2em;
   }
 
   .page>.jump {
