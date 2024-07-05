@@ -15,6 +15,7 @@
   display: flex;
   font-size: 1.3em;
   font-weight: bold;
+  position: absolute;
   left: 5%;
 }
 
@@ -23,17 +24,16 @@
   align-items: center;
   font-size: 1em;
   font-weight: bold;
+  position: absolute;
   right: 5%;
 }
 
 @media only screen and (max-width: 767px) {
-  .nav {
-    align-items: center;
-    justify-content: center;
+  .nav>.title:nth-child(1) {
+    font-size: 0.5em;
   }
 
-  .nav>.title:nth-child(1) {
-    font-size: 0em;
-    left: 0%;
+  .nav>.title:nth-child(2) {
+    font-size: 0.3em;
   }
 }
