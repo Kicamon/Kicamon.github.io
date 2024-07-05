@@ -18,8 +18,6 @@ let Timeline = function() {
       </div>
     `);
   });
-  // 初始化 timeline 插件
-  $("#shell").timeline();
 }
 
 Timeline();

@@ -189,9 +189,22 @@
   .item:last-child {
     padding-bottom: 40px;
   }
-}
 
-@media only screen and (max-width: 767px) {
+  .img {
+    max-width: 90%;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.4);
+  }
+
+  .content-title {
+    font-weight: normal;
+    font-size: 50px;
+    margin: -10px 0 0 0;
+    transition: 0.4s;
+    padding: 0 10px;
+    box-sizing: border-box;
+    color: #B0E0E6;
+  }
+
   .timeline:before {
     left: 40px;
   }
