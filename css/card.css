@@ -54,14 +54,22 @@
   height: 20vmin;
   justify-content: center;
   align-items: center;
-  animation: HeaBeat 2s linear infinite;
 }
 
 .card>.heart>.ani {
+  position: absolute;
   width: 4vmin;
   height: 4vmin;
   background-color: red;
-  transform: rotate(45deg);
+  animation: HeaBeat 1s linear infinite;
+}
+
+.card>.heart>.ani:nth-of-type(2) {
+  position: absolute;
+  width: 4vmin;
+  height: 4vmin;
+  background-color: red;
+  animation: HeaBeat2 1s linear infinite;
 }
 
 .card>.heart>.ani::before {
@@ -86,23 +94,23 @@
 
 @keyframes HeaBeat {
   0% {
-    transform: scale(1);
-  }
-
-  25% {
-    transform: scale(1.25);
-  }
-
-  50% {
-    transform: scale(1.5);
-  }
-
-  75% {
-    transform: scale(1.25);
+    transform: scale(1) rotate(45deg);
   }
 
   100% {
-    transform: scale(1);
+    transform: scale(1.5) rotate(45deg);
+  }
+}
+
+@keyframes HeaBeat2 {
+  0% {
+    transform: scale(1) rotate(45deg);
+    opacity: 1;
+  }
+
+  100% {
+    transform: scale(2.3) rotate(45deg);
+    opacity: 0;
   }
 }
 
