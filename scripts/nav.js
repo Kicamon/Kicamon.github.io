@@ -1,6 +1,6 @@
 let $nav = $(".nav");
 
-let Nav = function () {
+let Nav = function() {
   $nav.append(`
     <div class="title">
       我们的爱
